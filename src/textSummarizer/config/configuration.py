@@ -1,7 +1,7 @@
 # we are importing consants file and utils file
 from textSummarizer.constants import *
 from textSummarizer.utils.common import read_yaml, create_directories
-from textSummarizer.entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig)
+from textSummarizer.entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig)
 
 class ConfigurationManager:
     def __init__(
